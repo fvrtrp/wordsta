@@ -1,0 +1,7 @@
+//open console
+
+1.	container = document.querySelectorAll(".entry")
+2.	words = {}
+3.	words.words = [...container].map(el => ({ word: el.getAttribute("word"), freq: parseFloat(el.getAttribute("freq")), definition: el.querySelector(".definition").innerText }))
+4.	words   //this will show you what the words object now contains
+//expand words object, right click, copy object, save as json in a text editor

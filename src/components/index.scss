@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+.appContainer {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .wordContainer {
+        width: 600px;
+        position: relative;
+        text-align: center;
+        height: 300px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        border-radius: 10px;
+        box-shadow: 0 1px 20px 1px rgba(0, 0, 0, 0.1);
+        user-select: none;
+        cursor: pointer;
+        transition: opacity 0.2s ease-in-out, margin 0.15s ease-in-out;
+        .title {
+            font-size: 75px;
+            margin-top: 50px;
+            transition: margin 0.3s ease-in-out, visibility 0.5s ease-in-out;
+        }
+        .meaning {
+            margin-top: 25px;
+            visibility: hidden;
+            //opacity: 0;
+        }
+        &.expand {
+            .title {
+                margin-top: 0px;
+            }
+            .meaning {
+                visibility: visible;
+                //opacity: 1;
+            }
+        }
+        &.alignRight {
+            margin-left: 100%;
+            opacity: 0;
+        }
+        &.alignLeft {
+            margin-left: -100%;
+            opacity: 0;
+        }
+    }
+}
+
+
+@media (max-width: 640px) {
+    .wordContainer {
+        max-width: 95%;
+        height: 500px;
+    }
+}
