@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Wordsta",
+  "name": "Wordsta - Learn English words with flashcards",
   "icons": [
     {
       "src": "favicon.ico",
