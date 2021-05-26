@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="linearGradient-2" x1="0" x2="1200" y1="0" y2="623.7" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="rgb(255,137,197)"/>
+      <stop offset=".37" stop-color="rgb(255,140,115)"/>
+      <stop offset=".63" stop-color="rgb(143,133,255)"/>
+      <stop offset=".87" stop-color="rgb(100,246,255)"/>
+      <stop offset="1" stop-color="rgb(253,255,141)"/>
+    </linearGradient>
+    <filter id="filter-4" width="200%" height="200%" x="-50%" y="-50%" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feOffset dx="2" dy="2" in="SourceAlpha" result="shadow-1-feOffset-shadow"/>
+      <feGaussianBlur in="shadow-1-feOffset-shadow" result="shadow-1-feGaussianBlur-shadow" stdDeviation="16.867"/>
+      <feColorMatrix in="shadow-1-feGaussianBlur-shadow" result="shadow-1-feColorMatrix-shadow" type="matrix" values="0 0 0 0 0.19215686274509805  0 0 0 0 0.19215686274509805  0 0 0 0 0.19215686274509805  0 0 0 0.5 0"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="630" x="0" y="0" fill="url(#linearGradient-2)"/>
+  <g>
+    <text fill="inherit" stroke="black" stroke-opacity="0" stroke-width="0" filter="url(#filter-4)" font-size="0" style="white-space:pre">
+      <tspan x="354" y="363" font-family="Open Sans SemiBold" font-size="125" font-weight="600" style="white-space:pre;text-transform:none">wordsta</tspan>
+    </text>
+    <text font-size="0" style="white-space:pre">
+      <tspan x="354" y="363" fill="rgb(255,255,255)" font-family="Open Sans SemiBold" font-size="125" font-weight="600" style="white-space:pre;text-transform:none">wordsta</tspan>
+    </text>
+  </g>
+</svg>
